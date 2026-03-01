@@ -1,0 +1,38 @@
+################################
+# LARGE DATA FILES ONLY
+################################
+*.cis
+*.csv
+*.tsv
+*.fasta
+*.fa
+
+################################
+# GENERATED DATA / OUTPUT
+################################
+HG00512_merged_replicates.e500.clusters*
+sample_data/
+Human genome fasta files/
+
+################################
+# MODELS
+################################
+finetune/
+best_model*/
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+################################
+# FIGURES
+################################
+figures/
+*.png
+*.jpg
+
+################################
+# PYTHON CACHE
+################################
+__pycache__/
+*.pyc
