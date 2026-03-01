@@ -17,8 +17,7 @@ Human genome fasta files/
 ################################
 # MODELS
 ################################
-finetune/
-best_model*/
+
 *.h5
 *.pt
 *.pth
